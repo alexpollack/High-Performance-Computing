@@ -19,6 +19,6 @@ The file openMP contains code of different algorithms coded in parallel using Op
 Within the file matrix-mult, the code MMult1.cpp contains serial, parallel, and parallel with blocking versions of large matrix multiplication using OpenMP.
 
 ## Other-HPC
-## Intrinsic Functions and Vectorized Functions
+### Intrinsic Functions and Vectorized Functions
 #### fast-sin
 Within the file fast-sin, fast-sin.cpp has functions to compute the Taylor series expansion for sin(x). This includes writing it has an intrinsic function (both set for options AVX or SSE2 dependent on the machine), as well as a vectorized version. 
